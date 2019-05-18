@@ -1,28 +1,30 @@
 {
-  "name": "next.js",
+  "name": "with-jest-typescript",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
+    "test": "jest",
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codeBelt/next.js.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/codeBelt/next.js/issues"
-  },
-  "homepage": "https://github.com/codeBelt/next.js#readme",
   "dependencies": {
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/next": "^8.0.1",
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
+    "@zeit/next-typescript": "^1.1.1",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.5.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "jest": "^24.5.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.8.4",
+    "typescript": "^3.3.3333"
   }
 }
